@@ -401,7 +401,7 @@ function Home() {
             <div className="box-im w-100 h-100 p-absolute">
               <ParallaxImage
                 alt={""}
-                src={"/img/home/marketing-global.jpg"}
+                src={"/img/home/marketing-global-2.jpg"}
                 overlay={3}
                 height="100%"
                 heightTable={"70vh"}
