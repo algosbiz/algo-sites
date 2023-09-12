@@ -10,7 +10,7 @@ import HeaderFull from "../../components/header/HeaderFull";
 import NextProject from "../../components/next/NextProject";
 
 function Project6(params) {
-    const heroData = getPortfolioItem('lengshuikeng');
+    const heroData = getPortfolioItem('cuca-bali');
     return (
         <Layout>
             <HeaderFull className="dsn-container"

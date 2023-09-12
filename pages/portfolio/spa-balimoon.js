@@ -15,7 +15,7 @@ import NextProject from "../../components/next/NextProject";
 
 function Project1() {
 
-    const heroData = getPortfolioItem('maybe-speaker');
+    const heroData = getPortfolioItem('spa-balimoon');
     return (
         <Layout>
             <HeaderFull className="dsn-container"

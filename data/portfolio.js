@@ -42,21 +42,21 @@ const data = [
     {
         id: 5,
         title: "Budhi Ayu Silver ",
-        slug: 'small-silver-car',
+        slug: 'budhi-ayu-silver',
         src: '/img/project/web-design/budhi-ayu.jpg',
         category: ['E-commerce','Creative web design', 'SEO', 'Digital Marketing', 'Social Media'],
         description: 'Cal was first. The first public university in the great state of California.',
         overlay: 5
     },
     {
-        id: 6,
-        title: "Lengshuikeng",
-        slug: 'lengshuikeng',
-        category: ['Photography'],
-        src: '/img/project/project6/1.jpg',
-        description: 'Sometimes, we need to check the time.',
-        overlay: 4
-    }
+        id: 5,
+        title: "Budhi Ayu Silver 2 ",
+        slug: 'budhi-ayu-silver-2',
+        src: '/img/project/web-design/budhi-ayu.jpg',
+        category: ['E-commerce','Creative web design', 'SEO', 'Digital Marketing', 'Social Media'],
+        description: 'Cal was first. The first public university in the great state of California.',
+        overlay: 5
+    },
 ]
 
 export const getPortfolioData = () => data;

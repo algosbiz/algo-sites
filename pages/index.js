@@ -3,7 +3,6 @@ import Layout from "../layout/Layout";
 import SliderPortfolio from "../components/slider-portfolio/SliderPortfolio";
 import HeroSection from "../components/hero-section/HeroSection";
 import TitleSection from "../components/heading/TitleSection";
-import ServiceOne from "../components/services/grid/ServiceOne";
 import ParallaxImage from "../components/Image/ParallaxImage";
 import MoveBox from "../components/move-box/MoveBox";
 import Button from "../components/button/Button";
@@ -14,7 +13,6 @@ import Accordion, { AccordionItem } from "../components/accordion/Accordion";
 import DsnGrid from "../layout/DsnGrid";
 import TitleCover from "../components/heading/TitleCover";
 import BlogSwiper from "../components/bolg/BlogSwiper";
-import Team from "../components/Team/Team";
 import BrandClient from "../components/brand-client/BrandClient";
 import { getSliderData } from "../data/home-slider";
 import { getNewsOutlet } from "../data/news-outlet";
@@ -24,11 +22,8 @@ import NextPage from "../components/next/NextPage";
 import Footer from "../components/footer/Footer";
 import ModalContact from "../components/model-right/ModalContact";
 import Head from "next/head";
-import Skills, { SkillProgressBar } from "../components/skill/Skills";
 import Image from "next/image";
-import List, { ListItem } from "../components/list/List";
 import ServiceTow from "../components/services/grid/ServiceTow";
-import ServiceSwiper from "../components/services/ServiceSwiper";
 import { getHomeFooterService } from "../data/serviceHomeFooter";
 
 function Home() {
@@ -79,8 +74,8 @@ function Home() {
           </TitleSection>
 
           <p className="mb-10">
-            Looking to boost leads? We're not about one-size-fits-all
-            strategies; we're about what works. We offer the tools and tactics
+            Looking to boost leads? We&lsquo;re not about one-size-fits-all
+            strategies; we&lsquo;re about what works. We offer the tools and tactics
             to strengthen your online dominance on search engines and social
             media, all through flexible, no-lock-in SEO and SMM packages. We
             understand that every business has unique needs and goals, so our
@@ -139,11 +134,11 @@ function Home() {
                 the unique needs of your business? Look no further than Algo Sea
                 Biz. Our team works closely with you to develop a tailored
                 strategy that aligns with your brand and objectives, whether
-                you’re looking to increase website traffic, boost sales, or
+                you&lsquo;re looking to increase website traffic, boost sales, or
                 improve your online reputation. We have the tools and knowledge
-                to help you succeed, and we won’t let a small budget hold you
-                back. With Algo Sea Biz, you’ll get exceptional service and
-                support that delivers outstanding results. Don’t wait to take
+                to help you succeed, and we won&lsquo;t let a small budget hold you
+                back. With Algo Sea Biz, you&lsquo;ll get exceptional service and
+                support that delivers outstanding results. Don&lsquo;t wait to take
                 your online presence to the next level.
               </p>
               <Button href={"/services"} className="link-custom mt-30">
@@ -203,16 +198,16 @@ function Home() {
           </TitleSection>
 
           <p className="max-w570 dsn-up">
-            Understanding your company's strengths and weaknesses is just the
+            Understanding your company&lsquo;s strengths and weaknesses is just the
             beginning. To truly connect with your target audience and develop a
             winning strategy, you need to go deeper and discover what makes your
             target buyers tick. Our team of experts will help you go beyond
-            surface-level analysis and dive into your buyers' emotions,
+            surface-level analysis and dive into your buyer&lsquo;s emotions,
             interests, and personal styles to create detailed personas that
             guide your marketing efforts. With our tailored approach, you can
             identify the areas where you excel as well as the challenges you
             need to overcome and differentiate your products or services from
-            your competitors. Let's get started and make your mark!
+            your competitors. Let&lsquo;s get started and make your mark!
           </p>
 
           <div className="border-bottom mt-30 mb-30" />
@@ -258,16 +253,16 @@ function Home() {
             Our comprehensive digital marketing plan is designed to suit your
             budget and achieve sustainable growth. We believe that short-term
             and long-term digital goals should always be based on a realistic
-            approach that considers your business's unique strengths and
+            approach that considers your business&lsquo;s unique strengths and
             challenges. But setting goals is only half the battle. To achieve
             digital marketing success, you need to reach your audiences where
-            they'll be most receptive to your message. When it comes to digital
-            marketing, it's all about finding the right media portals that your
+            they&lsquo;ll be most receptive to your message. When it comes to digital
+            marketing, it&lsquo;s all about finding the right media portals that your
             audience uses, from social media platforms to search engines and
             beyond. A solid digital marketing plan that is consistently executed
-            will help you achieve the results you're after, regardless of your
+            will help you achieve the results you&lsquo;re after, regardless of your
             budget. With so many different tactics available to reach your
-            audiences, the sky is truly the limit. Let's make it happen.
+            audiences, the sky is truly the limit. Let&lsquo;s make it happen.
           </p>
 
           <div className="border-bottom mt-30 mb-30" />
@@ -322,12 +317,12 @@ function Home() {
           <p className="max-w570 dsn-up mb-6">
             Are you looking to average 200% more reach and impressions than your
             competitors? Social media marketing can do that - Provided its
-            managed correctly. We've helped grow brands from beginner stages,
+            managed correctly. We&lsquo;ve helped grow brands from beginner stages,
             assisted corporate institutions with their social status. Doubtful?
             Our case studies of clients and partners are proof. Only the top 1%
             of our skill-evaluated applicants join the team. Our social media
             managers have dominated Instagram sales, aiding numerous clients in
-            growing their revenue streams. Other agencies might get you 'likes'
+            growing their revenue streams. Other agencies might get you &lsquo;likes&lsquo;
             but no real leads. With Algo, we find your missing revenue and we
             fix it; by testing and optimizing your{" "}
             <a href="/blog/brand-personality-a-special-trait-that-makes-your-brand-shines/">
@@ -336,7 +331,7 @@ function Home() {
             and sale funnels.
           </p>
           <p className="max-w570 dsn-up">
-            Here's the inside scoop: Properly executed{" "}
+            Here&lsquo;s the inside scoop: Properly executed{" "}
             <a href="/social-media-marketing-service-bali/">
               social media management
             </a>{" "}

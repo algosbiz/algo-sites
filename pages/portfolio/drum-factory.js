@@ -10,7 +10,7 @@ import HeaderFull from "../../components/header/HeaderFull";
 import NextProject from "../../components/next/NextProject";
 
 function Project4() {
-    const heroData = getPortfolioItem('principal-garden');
+    const heroData = getPortfolioItem('drum-factory');
     return (
         <Layout>
             <HeaderFull className="dsn-container"
